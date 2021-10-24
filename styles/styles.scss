@@ -1,0 +1,40 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom right, #1d1d1d 70%, #444);
+}
+
+.gold-text {
+    color: #9B8041;
+}
+
+.header {
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    .header-menu {
+        display: flex;
+        list-style: none;
+        
+        .menu-item {
+            font-size: 30px;
+            margin-right: 50px;
+            transition: .6s;
+        }
+    }
+}
+
+
+
+.menu-item:hover {
+    color: black;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+
